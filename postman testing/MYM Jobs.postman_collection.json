@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "18b438bf-4181-4f09-9e38-dbd592c6d1dd",
+		"name": "MYM Jobs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27019112"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"jobName\": \"UI/UX\",\r\n    \"jobEnvironment\": \"UI/UX\",\r\n    \"jobTime\": \"fvgnvgnv\",\r\n    \"jobResponsability\": \"UI/UX\",\r\n    \"requirments\": \"UI/UX\",\r\n    \"jobType\": \"UI/UX\",\r\n    \"jobLocation\": \"UI/UX\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/jobs/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jobs",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "1a677cf4-9b41-4b95-849c-e87f8b5b89db",
+		"name": "MYM Intern",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27019112"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n    \"InternshipName\": \"UI/UX\",\r\n    \"InternshipEnvironment\": \"UI/UX\",\r\n    \"InternshipTime\": \"fvgnvgnv\",\r\n    \"InternshipResponsability\": \"UI/UX\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/interns/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"interns",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

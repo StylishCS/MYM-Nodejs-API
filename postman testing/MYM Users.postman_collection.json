@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "e68cdd49-be14-4186-b885-71d0bc5194e9",
+		"name": "MYM Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27019112"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
